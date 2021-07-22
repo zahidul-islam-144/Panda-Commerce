@@ -16,6 +16,8 @@
 <body>
     <!-- header starts -->
     <header>
+
+        <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -27,16 +29,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#bagpacks">Bag Packs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                     </ul>
                     
@@ -49,10 +51,9 @@
         </nav>
 
         <!-- image slider -->
-
-        <section class="container my-5">
+        <section class="container my-5" id="home">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner bg-info">     
+                <div class="carousel-inner bg-info rounded-3">     
                     <div class="carousel-item active p-5" data-bs-interval="2000">
                         <div class="row rounded text-dark d-flex align-items-center">
                             <div class="col-lg-7">
@@ -120,32 +121,129 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="ps-5 pe-5 p-3 border rounded-3 bg-warning bg-gradient d-flex align-items-center justify-content-between">
                         <h1 class="text-white">Watch</h1>
-                        <img src="images/categories/watch.png" width="70" height="90" alt="">
+                        <img src="images/categories/watch.png" width="80" height="90" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="ps-5 pe-5 p-3 border rounded-3 bg-success bg-gradient d-flex align-items-center justify-content-between">
                         <h1 class="text-white">Bag</h1>
-                        <img src="images/categories/bag.png" width="70" height="90" alt="">
+                        <img src="images/categories/bag.png" width="80" height="90" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="ps-5 pe-5 p-3 border rounded-3 bg-info bg-gradient d-flex align-items-center justify-content-between">
                         <h1 class="text-white">Shoes</h1>
-                        <img src="images/categories/shoes.png" width="70" height="90" alt="">
+                        <img src="images/categories/shoes.png" width="80" height="90" alt="">
                     </div>
                 </div>
-             
-
-            </div>
-             
+            </div>     
         </section>
-        
+
+        <!-- card items -->
+        <!-- shoes -->
+        <section class="container" id="shoes">
+            <div class="d-flex justify-content-between mb-3">
+                <h2>Shoes</h2>
+                <span><a href="#">See all</a></span>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                  <div class="card border-0 shadow-sm rounded">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <h2>$1289</h2>
+                            <a href="#" class="btn btn-dark mt-3">Buy Now &rarr;</a>
+                        </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow-sm rounded">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <h2>$1289</h2>
+                            <a href="#" class="btn btn-dark mt-3">Buy Now &rarr;</a>
+                        </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow-sm rounded">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <h2>$1289</h2>
+                            <a href="#" class="btn btn-dark mt-3">Buy Now &rarr;</a>
+                        </div>
+                  </div>
+                </div> 
+            </div> 
+        </section>
+
+        <!-- bag pack -->
+        <section class="container mt-5" id="bagpacks">
+            <div class="d-flex justify-content-between mb-3">
+                <h2>Bag Pack</h2>
+                <span><a href="#">See all</a></span>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                  <div class="card border-0 shadow-sm rounded">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <h2>$1289</h2>
+                            <a href="#" class="btn btn-dark mt-3">Buy Now &rarr;</a>
+                        </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow-sm rounded">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <h2>$1289</h2>
+                            <a href="#" class="btn btn-dark mt-3">Buy Now &rarr;</a>
+                        </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow-sm rounded">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <h2>$1289</h2>
+                            <a href="#" class="btn btn-dark mt-3">Buy Now &rarr;</a>
+                        </div>
+                  </div>
+                </div> 
+            </div> 
+        </section>
+
+        <!-- contact US-->
+        <section style="height:300px;" id="contact" class="container mt-5 bg-light d-flex justify-content-center align-items-center">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p class="text-center">Get updates on sales specials and more</p>
+                <input type="email" class="form-control ps-3" id="exampleFormControlInput1" placeholder="Enter your email"> 
+                <button class="btn btn-success mt-3">Send</button>
+            </div>
+        </section>
+
     </main>
 
     <!-- footer starts -->
-    <footer>
-
+    <footer class="container my-5">
+        <div>
+            <h5 class="text-center">&copy; 2021 Panda Commerce, All rights reserved, Bangladesh.</h5>
+        </div>
+        
     </footer>
 
     <!-- Bootstrap Scripts -->
